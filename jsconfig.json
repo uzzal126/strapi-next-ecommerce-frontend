@@ -1,0 +1,80 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "downlevelIteration": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "paths": {
+            "@/assets/*": [
+                "assets/*"
+            ],
+            "@/components/*": [
+                "components/*"
+            ],
+            "@/containers/*": [
+                "containers/*"
+            ],
+            "@/contexts/*": [
+                "contexts/*"
+            ],
+            "@/data/*": [
+                "data/*"
+            ],
+            "@/hooks": [
+                "hooks"
+            ],
+            "@/layout/*": [
+                "layouts/*"
+            ],
+            "@/ui/*": [
+                "components/ui/*"
+            ],
+            "@/utils/*": [
+                "utils/*"
+            ],
+            "@/widgets/*": [
+                "components/widgets/*"
+            ]
+        },
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ]
+    },
+    "include": [
+        "next-env.d.ts",
+        "next.config.js",
+        "src/**/*.js",
+        "src/**/*.jsx",
+        "tailwind.config.js",
+        "postcss.config.js",
+        "next-sitemap.config.js",
+        ".next/types/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}
+  

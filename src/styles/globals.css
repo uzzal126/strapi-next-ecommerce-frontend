@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-sm font-base text-paragraph;
+    }
+
+    img {
+        @apply inline-block;
+    }
+
+    p {
+        @apply mb-4 leading-6;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-medium leading-[1.4] text-heading;
+    }
+
+    h2 {
+        @apply text-3xl;
+    }
+
+    h3 {
+        @apply text-2xl;
+    }
+
+    h4 {
+        @apply text-lg;
+    }
+
+    h5 {
+        @apply text-sm;
+    }
+
+    a {
+        @apply transition;
+    }
+}
+
+@layer components {
+    .py-section {
+        @apply py-[70px];
+    }
+
+    .pt-section {
+        @apply pt-[70px];
+    }
+
+    .pb-section {
+        @apply pb-[70px];
+    }
+
+    .bg-one {
+        @apply bg-[#c3ead5]
+    }
+
+    .bg-two {
+        @apply bg-[#f3cd97]
+    }
+
+    .bg-three {
+        @apply bg-[#95e0d2]
+    }
+
+    .bg-four {
+        @apply bg-[#fa8383]
+    }
+}
